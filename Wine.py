@@ -1,10 +1,4 @@
-import numpy as np
-import sklearn
-from sklearn.ensemble import BaggingClassifier
-from sklearn.tree import DecisionTreeClassifier
 from ucimlrepo import fetch_ucirepo
-import pandas as pd
-import matplotlib.pyplot as plt
 
 wine_quality = fetch_ucirepo(id=186)
 
